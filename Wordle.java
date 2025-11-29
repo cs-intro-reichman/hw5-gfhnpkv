@@ -25,10 +25,10 @@ public class Wordle {
 		// ...
         for (int i = 0; i < secret.length(); i++) {
             if(c == secret.charAt(i)) {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
 
     }
 
